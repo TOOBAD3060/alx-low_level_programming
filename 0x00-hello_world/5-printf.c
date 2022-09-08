@@ -2,6 +2,7 @@
 	/**
 	 * main- Entry point
 	 * Description: printf-printing command
+	 * Return: Always 0 (success);
 	 */
 	int main(void)
 	{
