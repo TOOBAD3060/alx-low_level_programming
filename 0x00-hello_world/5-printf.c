@@ -1,5 +1,5 @@
 #include <stdio.h>
-	/*
+	/**
 	 * main- Entry point
 	 * Description: printf-printing command
 	 */
