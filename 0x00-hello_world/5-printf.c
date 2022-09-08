@@ -1,7 +1,7 @@
 #include <stdio.h>
 	/*
 	 * main- Entry point
-	 * printf-printing command
+	 * Description: printf-printing command
 	 */
 	int main(void)
 	{
