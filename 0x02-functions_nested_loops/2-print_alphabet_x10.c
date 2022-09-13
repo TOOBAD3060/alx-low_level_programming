@@ -4,45 +4,34 @@
  *  * print_alphabet_x10 - prints 10 times the alphabet
  *
  *   * followed by a new line
- *
- *   */
+ */
 
 
 
 void print_alphabet_x10(void)
 
 {
-		char a;
+	char a;
 
-			int i;
+	int i;
 
-
-
-				i = 0;
+	i = 0;
 
 
+	while (i < 10)
 
-					while (i < 10)
-
-							{
-
-										a = 'a';
+	{
+												a = 'a';
 
 												while (a <= 'z')
+												{
+													_putchar(a);
+																							a++;
 
-															{
-
-																			_putchar(a);
-
-																						a++;
-
-																								}
-
-														_putchar('\n');
-
-																i++;
-
-																	}
+																						}
+												_putchar('\n');
+												i++;
+												}
 
 }
 
