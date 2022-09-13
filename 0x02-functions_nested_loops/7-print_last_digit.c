@@ -15,7 +15,7 @@ int print_last_digit(int n)
 
 
 
-	if (n < 0)
+if (n < 0)
 
 						n = -n;
 
@@ -25,7 +25,7 @@ int print_last_digit(int n)
 
 
 
-	if (a < 0)
+if (a < 0)
 
 								a = -a;
 
