@@ -2,7 +2,8 @@
 
 /**
  * mul : multipy two integers
- * @a and @b - integers to be multiplied
+ * @a - integer to be multiplied to b
+ *  @b - integer to be multiplied to a
  * Return : 0 (always success)
  */
 
