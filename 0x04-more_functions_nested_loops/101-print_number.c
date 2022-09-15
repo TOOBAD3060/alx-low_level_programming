@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer n
- *@n: integer to be printed
+ * print_number - print an integer, without using long, arrays, or pointers
+ * @n: integer to be printed
  */
 
 void print_number(int n)
