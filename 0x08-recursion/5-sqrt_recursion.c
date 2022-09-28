@@ -2,14 +2,11 @@
 
 /**
  * square_root - function that finds square root of numbers
+ * @n: test n
  * @root: the actual root to be determined
+ * Returrn: natural root or -1 if no such
  */
 
-/**
- * _sqrt_recursion - function that returns the natural square root of a number
- * @n: number whose root is to be determined
- * Return: -1 if n has nor square root
- */
 
 int square_root(int n, int root)
 {
@@ -20,6 +17,11 @@ int square_root(int n, int root)
 	return (square_root(n, root + 1));
 }
 
+/**
+ * _sqrt_recursion - function that returns the natural square root of a number
+ * @n: number whose sqrt is to be determined
+ * Return: -1 when n has no root
+ */
 
 int _sqrt_recursion(int n)
 {
