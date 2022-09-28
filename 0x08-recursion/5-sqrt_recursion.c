@@ -4,7 +4,7 @@
  * square_root - function that finds square root of numbers
  * @n: test n
  * @root: the actual root to be determined
- * Returrn: natural root or -1 if no such
+ * Return: natural root or -1 if no such
  */
 
 
