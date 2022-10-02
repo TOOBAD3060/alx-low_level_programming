@@ -12,10 +12,8 @@ int main(int argc, char *argv[])
 
 	if (argc > 1 && argc < 4)
 	{
-		int result;
 		
-		result = atoi(argv[1] * argv[2]);
-		printf("%d\n", result);
+		printf("%d\n", argv[1] * argv[2]);
 	}
 	else
 	{
