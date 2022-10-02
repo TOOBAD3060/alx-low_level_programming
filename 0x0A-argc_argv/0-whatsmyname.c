@@ -5,7 +5,7 @@
  * main - prints name of program
  * @argc: counts arguments
  * @argv: pointer to array of arguments
- * Return: 0(Always success)
+ * Return:  on success
  */
 
 int main(int argc __attribute__((unused)), char *argv[])
