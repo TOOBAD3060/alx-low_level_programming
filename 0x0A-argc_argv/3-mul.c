@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -6,14 +7,17 @@
  * @argv: pointer to array of args
  * Return: 0 on success
  */
+
 int main(int argc, char *argv[])
 {
 	int i;
+	int res;
 
-	if (argc > 1 && argc < 4)
+	if (argc > 1)
 	{
-		
-		printf("%d\n", argv[1] * argv[2]);
+		res = atoi(argv[1]) * atoi(argv[2]);
+
+		printf("%d\n", res);
 	}
 	else
 	{
